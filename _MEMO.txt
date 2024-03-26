@@ -1,0 +1,5 @@
+起動
+./dl.sh
+
+解説
+https://zenn.dev/ziaensochan/articles/5813a63b05fd4c
