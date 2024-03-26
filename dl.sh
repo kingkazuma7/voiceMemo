@@ -12,7 +12,7 @@ elif [ $option = 2 ]; then
     cd Desktop
     echo "音声をダウンロード"
     read "url_a?URL:"
-    yt-dlp -f b -x --audio-format mp3 --audio-quality 320K -o "dl_mp3/%(title)s.%(ext)s" "$url_a"
+    yt-dlp -x --audio-format mp3 --audio-quality 0 -o "dl_mp3/%(title)s.%(ext)s" "$url_a"
 else 
     cd Music
     echo "アルバムをダウンロード"
